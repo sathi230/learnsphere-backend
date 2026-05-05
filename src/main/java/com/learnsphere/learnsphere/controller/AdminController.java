@@ -16,7 +16,6 @@ import com.learnsphere.learnsphere.repository.UserRepository;
 	
 	@RestController
 	@RequestMapping("/api/admin")
-	@CrossOrigin(origins = "http://localhost:3000")
 	public class AdminController {
 	
 	    @Autowired

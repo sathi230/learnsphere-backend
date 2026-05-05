@@ -19,7 +19,6 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/trainer")
-@CrossOrigin(origins = "http://localhost:3000")
 public class TrainerController {
 
     @Autowired
